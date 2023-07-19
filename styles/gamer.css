@@ -40,7 +40,7 @@
     justify-content: space-between;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-    padding: 0px 240px;
+    padding: 0px 150px;
 }
   .header-nav-button{
     width: 260px;
@@ -61,7 +61,8 @@
     
   }
 
-  .nav-section ul li a{
+  .nav-section ul li a,
+  .header-nav-button h5{
     text-decoration: none;
     color: #3C354F;
     font-size: 1rem;
@@ -88,7 +89,7 @@
 
   .banner{
     display: flex;
-    padding: 0px 240px;
+    padding: 0px 150px;
     justify-content: space-between;
   }
 
