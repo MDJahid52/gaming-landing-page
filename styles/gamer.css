@@ -151,4 +151,66 @@
   .videos img{
     width: calc(100% - 20px);
   }
+
+  /* online play section */
   
+  .online-play{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .online-play-description{
+    padding-left: 240px;
+  }
+
+  .online-play-description h3{
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  .online-play-description p{
+    color: #534C64;
+    font-size: 1rem;
+  }
+  .online-play-img img{
+    height: 500px;
+  }
+
+  .relative-img img{
+    width: 35%;
+    height: 40%;
+
+  }
+  .relative-img{
+    position: relative;
+    bottom: 150px;
+    right: 250px;
+  }
+
+  /* game links section */
+
+  .game-links{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+    column-gap: 400px;
+    row-gap: 20px;
+  }
+
+  .box{
+    display: flex;
+  }
+  .box p{
+    color: #0B0223;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-left: 5px;
+  }
+
+  .box:hover{
+    border: 2px solid pink;
+    color: pink;
+    border-radius: 50px;
+  }
