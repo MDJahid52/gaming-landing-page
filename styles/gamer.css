@@ -40,14 +40,14 @@
     justify-content: space-between;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-    padding: 0px 150px;
+    padding: 0px 120px;
 }
   .header-nav-button{
     width: 260px;
     height: 55px;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    padding: 16px 150px 16px 150px;
+    padding: 16px 100px 16px 100px;
     justify-content: space-between;
   }
 
@@ -80,7 +80,7 @@
 
   .header-logo h3{
     color:#0B0223;
-    font-size: 45px;
+    font-size: 2.8rem;
     font-weight: 700;
 
   }
@@ -89,7 +89,7 @@
 
   .banner{
     display: flex;
-    padding: 0px 150px;
+    padding: 0px 120px;
     justify-content: space-between;
   }
 
@@ -105,11 +105,15 @@
     font-weight: 800;
     text-transform: uppercase;
   }
+  .banner-description{
+    margin-top: 150px;
+  }
   .banner-description p{
     color: #534C64;
     font-size: 20px;
     font-weight: 500;
   }
+
   .btn-secondary{
     border: none;
     border-radius: 48px;
@@ -120,3 +124,31 @@
     font-weight: 600;
     text-transform: uppercase;
   }
+
+  /* videos section */
+
+  .videos-section h3{
+    color: #0B0223;
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0px;
+  }
+  .videos-section p{
+    color: #534C64;
+    text-align: center;
+  }
+
+  .videos{
+    margin-top: 50px;
+    padding: 0px 120px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .videos img{
+    width: calc(100% - 20px);
+  }
+  
