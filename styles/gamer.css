@@ -67,6 +67,7 @@
     color: #3C354F;
     font-size: 1rem;
     font-weight: 500;
+
   }
 
   .header-logo{
@@ -192,25 +193,93 @@
   /* game links section */
 
   .game-links{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: space-around;
-    column-gap: 400px;
-    row-gap: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 40px;
+   margin-bottom: 100px;
   }
 
   .box{
     display: flex;
+    justify-content: center;
   }
   .box p{
     color: #0B0223;
     font-size: 1.25rem;
     font-weight: 600;
-    padding-left: 5px;
+    padding: 0px 20px;
   }
 
   .box:hover{
     border: 2px solid pink;
     color: pink;
     border-radius: 50px;
+  }
+
+  /* footer section */
+
+  footer{
+    width: 100%;
+    background: #0B0223;;
+  }
+
+  .footer-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-title h3{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 2.8rem;
+    font-weight: 700;
+    padding: 20px;
+  }
+
+  .footer-title img{
+    height: 50px;
+  }
+
+  .footer-links{
+    text-align: center;
+  }
+
+  .footer-links a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-left: 60px;
+  }
+
+  .footer-icons{
+    display: flex;
+    justify-content: center;
+  }
+  .footer-icons img{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-right: 40px;
+  }
+  .footer-settings{
+    text-align: center;
+  }
+
+  .footer-settings a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left: 60px;
+  }
+  .copyright{
+    text-align: center;
+  }
+  .copyright p{
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
   }
